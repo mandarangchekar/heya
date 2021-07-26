@@ -1,0 +1,59 @@
+
+
+.vision .welcome-msg {
+    padding: 10%;
+    position: relative;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+    color: #fff;
+    top: 0;
+}
+
+.welcome-msg p {
+
+    position: relative;
+    writing-mode: tb-rl;
+    font-size: 10px;
+    margin-top: 5rem;
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+.welcome-msg {
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    top: 200px;
+}
+
+.vision {
+    height: auto;
+    margin-top: auto;
+    background-color: #000000;
+    color: white;
+    line-height: 25px;
+    
+}
+
+.vision .welcome-msg h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(189, 188, 188);
+}
+
+.standout {
+    font-size: 20px;
+    background-color: red;
+    background-image: linear-gradient(45deg, rgb(255, 131, 79),rgb(255, 195, 170));
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.our-vision {
+    font-size: 30px;
+    margin-top: -50px;
+}

@@ -1,0 +1,294 @@
+
+
+.amigo-brings-you {
+	height: 58rem;
+}    
+
+@media (min-width: 992px){
+    #box5, #box6, #box7, #box8 {
+        margin-top: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #box5, #box6, #box4 {
+        margin-top: 200px;
+    }
+
+    #box7, #box8 {
+        margin-top: 195px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    #box4 {
+        margin-top: 200px;
+    }
+
+    #box5, #box6 {
+        margin-top: 195px;
+    }
+
+    #box7, #box8 {
+        margin-top: 195px;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 500px) {
+
+	#box1 {
+		height: 200px;
+	}
+
+	#box2 {
+		height: 200px;
+	}
+
+    #box3 {
+        margin-top: 200px;
+    }
+
+    #box5 {
+        margin-top: 200px;
+    }
+    #box6 {
+        margin-top: 200px;
+    }
+    #box7 {
+        margin-top: 200px;
+    }
+    #box8 {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 350px) {
+
+	#box1 {
+		height: 200px;
+	}
+
+	#box2 {
+		height: 200px;
+	}
+
+    #box3 {
+        margin-top: 150px;
+    }
+
+    #box5 {
+        margin-top: 150px;
+    }
+    #box6 {
+        margin-top: 150px;
+    }
+    #box7 {
+        margin-top: 150px;
+    }
+    #box8 {
+        margin-top: 150px;
+    }
+}
+
+
+#box {
+	position: absolute;
+    margin: 10% 0 10% 15%;
+    overflow: hidden;
+	width: 150px;
+	height: 150px;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 40px;
+}
+
+#face-id {    		
+	position: absolute;
+	left: 30%;
+	top: 22%;
+}
+
+#ai-therapy { 
+	position: absolute;
+    width: 120px;
+	left: 11%;
+	top: 65%;
+	font-family: Sitara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 45px;
+	text-align: center;
+	color: #575757;
+}
+
+
+#shadow {
+	margin: 0 0 100% 0;
+}
+
+#page-heading { 
+	margin-left: 20px;
+	padding-top: 3%;
+    font-family: 'Spinnaker', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 75px;
+	text-align: center;
+	color: #7a7a7a;
+}
+
+#mood-tracking {
+	position: absolute;
+    width: 150px;
+	top: 65%;
+	font-family: Sitara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 45px;
+	text-align: center;
+	color: #575757;
+}
+
+#doodle-5 {
+	position: absolute;
+}
+
+#doodle-4 {
+	position: absolute;
+	margin: 20% 10% 0 0;
+	transform: matrix(0.9, -0.44, 0.44, 0.9, 0, 0);
+}
+
+#doodle5, #doodle4 {
+	height: 100px;
+	width: 100px;
+}
+
+.semicircle-10 {
+	height: 280px;
+	width: 280px;
+	float: left;
+	margin-top: 95px;
+}
+
+#sketch-2 {
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	margin: 40px;
+}
+
+
+
+
+/* Greater than 768px */
+/*
+@media(min-width: 768px) and (max-width: 899px){
+
+	.problem-guy {
+		height: 500px;
+		width: 350px;
+	}
+
+	.semicircle-2 {
+		height: 200px;
+		width: 200px;
+	}
+
+	.semicircle-10 {
+		height: 200px;
+		width: 200px;
+		margin-top: -5%;
+	}
+
+	#page-heading { 
+		font-size: 35px;
+		margin: 5% 0 0 0;
+	}
+	
+	#ai-therapy { 
+		font-size: 17px;
+	}
+	
+	#mood-tracking {
+		font-size: 17px;
+	}
+	
+
+	#doodle-5 {
+		left: 8%;
+	}
+			
+	#sketch-2 {
+		position: absolute;
+		top: 440px;
+		left: 40px;
+	}
+}
+*/
+
+/**************************** This is for SMALL devices *****************************/
+/*
+@media(min-width: 500px) and (max-width: 599px){
+
+	#page-heading { 
+		font-size: 28px;
+		padding-top: 20px;
+		padding-left: 32px;
+	}
+
+	#ai-therapy { 
+		font-size: 16px;
+	}
+	
+	#mood-tracking {
+		font-size: 16px;
+	}	
+
+	#doodle-5 {
+		left: 8%;
+	}
+			
+	#sketch-2 {
+		position: absolute;
+		top: 440px;
+		left: 40px;
+	}
+}
+
+
+
+@media (max-width: 499px) {
+	#page-heading { 
+		font-size: 20px;
+		padding-top: 20px;
+		padding-left: 25px;
+	}
+
+	#ai-therapy { 
+		font-size: 14px;
+	}
+	
+	#mood-tracking {
+		font-size: 14px;
+	}
+	
+
+	#doodle-5 {
+		display: none;
+	}
+
+	#doodle-4 {
+		display: none;
+	}
+			
+	#sketch-2 {
+		position: absolute;
+		top: 440px;
+		left: 50px;
+	}
+}
+*/

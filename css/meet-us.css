@@ -1,0 +1,188 @@
+/* meet us section */
+
+#people, #team{
+    padding-top: 50px;
+}
+
+.column {
+    float: center;
+    width: 10px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.row2 {
+    padding:50px  250px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-self: center;
+}
+
+#myrow {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+/*
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+*/
+
+/* .fblogo {  
+    height: 150px;
+    width: 165px;
+    border-radius: 50%;
+  } */
+
+  .fblogo1 {  
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-self: center;
+  }
+ 
+.meetushead{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.text-name{
+    font-size: 18px;
+    padding: 3px;
+    text-align: center;
+
+    
+}
+.text-job{
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.text-name1{
+    font-size: 18px;
+    padding: 3px;
+    text-align: center;
+    
+
+    
+}
+.text-job1{
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+}
+
+.anchor{
+    padding: 23px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 350;
+}
+.anchor1{
+  
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.meetingus{
+    font-size: 55px;
+    height: 75px;
+    color: #575757;
+    font-weight: 400px;
+    padding-bottom: 30px;
+}
+
+/* .meetushead{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grand_parent1{ width: 100vw; height:800px;
+	background: #dfe6e9; color: #fff;}
+h1{
+	font-size: 4rem;
+	padding: 20px 0;
+	text-align: center;
+	color: #000;
+}
+p{
+	text-align: center;
+}
+.parents1{ width: 80vw; height: auto; margin: auto;
+	display: flex;  justify-content: space-around;
+	flex-wrap: wrap; transition: all 0.2 linear;
+}
+/* .child1{ */
+	/* height: 130px;
+    width: 200px;
+    border-radius: 100px; */
+	/* background:red; */
+	/* box-shadow: 0 0 20px #bac3c3; */
+	/* flex:1 1 ; */
+	/* margin: 20px; */
+/* } */
+
+.text-text{
+    text-align: center;
+}
+
+
+
+
+
+
+/* 
+.child1:first-child{
+	background: #ffbe76;
+}
+.child1:last-child{
+	background: #ff7979;
+} */
+@media (max-width: 768px){
+	.grand_parent1{height:auto; }
+}
+
+.doodle{
+	position: fixed;
+}
+

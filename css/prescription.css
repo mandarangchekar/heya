@@ -1,0 +1,213 @@
+body {
+    text-align: center;
+    
+  }
+ .section{
+  
+  height: 100vh;
+  width: 100%; 
+ }
+ /*--------------------------------
+ Problems Section
+ -------------------------------*/
+
+ #prescription{
+     background-color: #222222;
+     
+ }
+ .carousel-container{
+     width: 700px;
+     position: absolute;
+     left: 10%;
+    
+ }
+ .problem-header{
+     margin-top: 150px;
+     margin-bottom: 50px;
+     font-family: 'Sitara',sans-serif;
+     font-size: 25px;
+     text-align: left;
+     color: #fff;
+ }
+ .solution{
+     color: #fff;
+     text-align: left;
+ }
+ .arrow-svg{
+     padding-top: 20px;
+     display: flex;
+ }
+ .arrow-svg-left{
+     cursor: pointer;
+ }
+ .arrow-svg-right{
+     cursor: pointer;
+   margin-left: 30px;
+ }
+.carousel-item{
+    transition: ease-in 0.7s;
+}
+  .problem-guy{
+      display: flex;
+      float: right;
+      margin-top: 30px;
+      margin-right: 70px;
+    overflow: hidden;
+  }
+  .book{
+      height: 150px;
+      position: relative;
+      top: 80vh;
+      left: -100px;
+    float: left;       
+
+  }
+  .triangle{
+    position: relative;
+    top: 80vh;
+  float: left;       
+}
+.semicircle-2{
+    position: relative;
+    top: 80vh;
+    float: right; 
+    left: 492px; 
+    height: 350px;
+    width: 350px;
+    margin-top: -50px;
+}
+
+.problem-guy1{
+    visibility: hidden;
+}
+
+ @media screen and (max-width:700px){
+    .problem-header{
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Sitara',sans-serif;
+        font-size: 20px;
+        text-align: left;
+    }
+    .solution{
+        color: #fff;
+        text-align: left;
+        font-family: 'Sitarar',sans-serif;
+        font-size: 16px;
+    }
+    .carousel-container{
+         
+         width: auto;
+         left: 0%;
+     }
+    .problem-guy{
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
+     .semicircle-2{
+         display: none;
+     }
+     .problem-guy1{
+         float: left;
+         height: 350px;
+        visibility: visible;
+        margin-top: -400px;
+        margin-left: 100px;
+     }
+     .book{
+        height: 100px;
+        position: relative;
+        top: 90vh;
+        left: -100px;
+      float: left;       
+  
+    }
+    .triangle{
+        height: 150px;
+      position: relative;
+      top: 90vh;
+    float: left;       
+  }
+ }
+ 
+ @media only screen 
+  and (min-device-width: 868px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .carousel-container{
+        position: relative;
+        top: 200px;
+    }
+    .semicircle-2{
+        position: relative;
+        top: 25vh;
+        float: right; 
+        left: 0px;  
+    }
+
+    .problem-guy{
+        display: none;
+    }
+    .problem-guy1{
+        float: right;
+        height: 800px;
+       visibility: visible;
+       margin-top: -400px;
+       margin-left: 200px;
+    }
+    .book{
+        height: 100px;
+        position: relative;
+        top: 33vh;
+        left: -100px;
+      float: left;       
+  
+    }
+    .triangle{
+        height: 150px;
+      position: relative;
+      top: 33vh;
+    float: left;       
+  }
+}
+@media only screen 
+  and (min-device-width: 568px) 
+  and (max-device-width: 868px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .carousel-container{
+        width: 600px;
+        position: relative;
+        top: 100px;
+    }
+    .semicircle-2{
+        position: relative;
+        top: 15vh;
+        float: right; 
+        left: 0px;  
+    }
+    .problem-guy{
+        display: none;
+    }
+    .problem-guy1{
+        float: right;
+        height: 700px;
+       visibility: visible;
+       margin-top: -400px;
+       margin-left: 200px;
+    }
+    .book{
+        height: 100px;
+        position: relative;
+        top: 20vh;
+        left: -100px;
+      float: left;       
+  
+    }
+    .triangle{
+        height: 150px;
+      position: relative;
+      top: 20vh;
+    float: left;       
+  }
+}
