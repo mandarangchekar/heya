@@ -1,6 +1,6 @@
 
 
-.vision .welcome-msg {
+#vision .welcome-msg {
     padding: 10%;
     position: relative;
     text-align: center;
@@ -27,7 +27,7 @@
     top: 200px;
 }
 
-.vision {
+#vision {
     height: auto;
     margin-top: auto;
     background-color: #000000;
@@ -36,7 +36,7 @@
     
 }
 
-.vision .welcome-msg h4 {
+#vision .welcome-msg h4 {
     font-size: 20px;
     line-height: 1.5;
     color: rgb(189, 188, 188);

@@ -39,6 +39,14 @@ body {
     text-align: left;
 }
 
+.navbar-nav a:hover {
+    color: white !important;
+    background-color: #ff8533;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s all;
+}
+
 .fa-bars {
     color: #fff;
     font-size: 30px !important;
@@ -102,7 +110,7 @@ body {
     margin-right: 35px;
     margin-top: 50px;
     float: right;
-    margin: 0 300px 20px 100px ;
+    margin: 30px 300px 20px 100px ;
     border-radius: 100px;
     /* position:absolute ;
     right: 100px;

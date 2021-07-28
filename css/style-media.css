@@ -245,7 +245,7 @@ html,body {
     }
 
     #curious {
-        height: 40rem;
+        height: 50rem;
     }
 
     .curious-title-head {
@@ -525,7 +525,7 @@ html,body {
     }
 
     #curious {
-        height: 40rem;
+        height: 45rem;
     }
 
     .curious-title-head {
@@ -758,7 +758,7 @@ html,body {
     }
 
     #curious {
-        height: 40rem;
+        height: 42rem;
     }
 
     .curious-title-head {
@@ -2190,7 +2190,11 @@ html,body {
     
     .standout {
         font-size: 20px;
-    }    
+    }  
+    
+    .img-fluid {
+        float: left;
+    }
 }
 
 
