@@ -72,7 +72,7 @@
 
 #submission {
 	position: absolute;
-	margin: 13% 0 0 5px;  /* top right bottom left */
+	margin: 13% 0 0 0;  /* top right bottom left */
 	width: 210px;
 	height: 65px;
 	background-color: #FF834F;
@@ -81,6 +81,11 @@
 	border: 3px solid #FFFFFF;
 	box-sizing: border-box;
 	border-radius: 100px;
+}
+
+#submission:hover {
+	background-color: white;
+	color: gray;
 }
 
 
@@ -123,6 +128,7 @@
 
 #social-icons {
 	display: inline-block; 
+	float: right;
 }
 
 #social-icons > div > a > i {
