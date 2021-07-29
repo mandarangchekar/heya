@@ -3,7 +3,7 @@
 /* Fun Facts */
 
 .fun-facts {
-	margin-top: 40px;
+	margin-top: 5px;
 	background-image: url(../images/fun-facts-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 }
 
 .fun-facts h2 {
-	font-size: 36px;
+	font-size: 60px;
 	font-weight: 600;
 	margin-bottom: 35px;
 	text-align: center;
@@ -31,7 +31,7 @@
 
 .fun-facts em {
 	font-style: normal;
-	color: #a4c639;
+	color: black;
 }
 
 .fun-facts p {
@@ -60,7 +60,7 @@
 .count-title {
     font-size: 20px;
     font-weight: 600;
-    color: #a4c639;
+    color: black;
     letter-spacing: 0.5px;
 }
 .packages {
@@ -115,6 +115,24 @@
     font-weight: 600;
     color: rgb(34, 33, 33);
     letter-spacing: 0.5px;
+}
+
+#amigodoodle8{
+	position: absolute;
+	left: 10px;
+	/* left: 8.54%;
+	right: 120.39%;
+	top: 10%;
+	bottom: 58.41%;
+	margin-left: 70vw; */
+	/* margin-bottom: 50vw ; */
+}
+
+#amigodoodle9{
+	position: absolute;
+	right: 50px;
+	/* bottom: 10px;
+	right: 10px; */
 }
 
 /* .card{

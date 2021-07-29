@@ -45,6 +45,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     transition: .2s all;
+    --swiper-theme-color: white;
 }
 
 .fa-bars {
@@ -65,6 +66,10 @@ body {
 #navbarNav {
     padding-right: 100px;
 }
+
+/* :root {
+    --swiper-theme-color: white;
+} */
 
 /*----------banner section-----------*/
 
@@ -134,3 +139,13 @@ body {
     height: 200px;
 }
 
+
+.phoneimage{
+    height: 700px;
+}
+
+@media only screen and (max-width: 950px) {
+    .phoneimage {
+      height: 500px;
+    }
+  }  

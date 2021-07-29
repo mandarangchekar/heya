@@ -186,3 +186,37 @@ p{
 	position: fixed;
 }
 
+
+#amigodoodle10{
+    position: absolute;
+    right: 35px;
+    transform: rotate(20deg);
+}
+
+#amigodoodle11{
+    position: absolute;
+    left: 220px;
+    padding-bottom: 100px !important;
+    transform: rotate(320deg);
+    
+}
+
+#amigodoodle12{
+    position: absolute;
+    right: 330px;
+    margin-bottom: 100px;
+   
+    
+}
+
+@media only screen and (max-width: 1300px) {
+    #amigodoodle11 {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    #amigodoodle10 {
+      display: none;
+    }
+  }  
