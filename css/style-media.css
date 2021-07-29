@@ -283,6 +283,12 @@ html,body {
     #hours {
         font-size: 15px !important;
     }
+    #doodle8 {
+        top: 195%;
+    }
+    #doodle9 {
+        top: 190%;
+    }
 }
 
 
@@ -563,6 +569,12 @@ html,body {
     #hours {
         font-size: 15px !important;
     }
+    #doodle8 {
+        top: 190%;
+    }
+    #doodle9 {
+        top: 190%;
+    }
 }
 
 
@@ -796,6 +808,12 @@ html,body {
     #hours {
         font-size: 15px !important;
     }
+    #doodle8 {
+        top: 190%;
+    }
+    #doodle9 {
+        top: 190%;
+    }
 }
 
 
@@ -1022,6 +1040,12 @@ html,body {
         margin-top: 30px;
         margin-left: 6%;
     }
+    #doodle8 {
+        top: 190%;
+    }
+    #doodle9 {
+        top: 190%;
+    }
 }
 
 
@@ -1245,6 +1269,12 @@ html,body {
         margin-top: 30px;
         margin-left: 6%;
     }
+    #doodle8 {
+        top: 185%;
+    }
+    #doodle9 {
+        top: 190%;
+    }
 }
 
 
@@ -1463,6 +1493,12 @@ html,body {
         margin-top: 30px;
         margin-left: 6%;
     }
+    #doodle8 {
+        top: 185%;
+    }
+    #doodle9 {
+        top: 190%;
+    }
 }
 
 
@@ -1655,6 +1691,12 @@ html,body {
     .our-vision {
         margin-top: -10px;
     }
+    #doodle8 {
+        top: 175%;
+    }
+    #doodle9 {
+        top: 190%;
+    }
 }
 
 /**************************************** 750-900 *************************************/
@@ -1831,6 +1873,12 @@ html,body {
 
     .register_mobile {
         display: none;
+    }
+    #doodle8 {
+        top: 175%;
+    }
+    #doodle9 {
+        top: 190%;
     }
 }
 
