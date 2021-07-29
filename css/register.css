@@ -31,8 +31,24 @@
 	position: absolute;
 	left: 3.54%;
 	right: 88.39%;
-	top: 39.12%;
+	top: 5.12%;
 	bottom: 58.41%;
+}
+#doodle8 {
+	position: absolute;
+	left: 3.54%;
+	right: 88.39%;
+	top: 60%;
+	bottom: 58.41%;
+	margin-left: 50vw;
+}
+#doodle9 {
+	position: absolute;
+	left: 3.54%;
+	right: 88.39%;
+	top: 80%;
+	bottom: 58.41%;
+	margin-left: 10vw;
 }
 
 .form-group {
