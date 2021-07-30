@@ -1,0 +1,37 @@
+
+#curious {
+    height: 50rem;
+}
+
+.curious-title{
+    padding-top: 100px;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.curious-title-head{
+    font-family: 'Spinnaker', sans-serif;
+    font-weight: 400px;
+    font-size: 40px;
+    margin-top: -40px;
+}
+
+.curious-title-para{
+    padding-top: 10px;
+    font-family: 'Spinnaker', sans-serif;;
+    font-weight: 400px;
+    font-size: 20px;
+
+}
+
+.img-fluid {
+    width: 350px;
+    margin-top: 30px;
+}
+
+
+/* audio section */
+
+#audio {
+    width: 350px;
+    height: 100px;
+}
