@@ -4,7 +4,7 @@ body {
   }
  .section{
   
-  height: 100vh;
+  height: 85vh;
   width: 100%; 
  }
  /*--------------------------------
@@ -25,7 +25,7 @@ body {
      margin-top: 150px;
      margin-bottom: 50px;
      font-family: 'Sitara',sans-serif;
-     font-size: 25px;
+     font-size: 30px;
      text-align: left;
      color: #fff;
  }
@@ -57,19 +57,19 @@ body {
   .book{
       height: 150px;
       position: relative;
-      top: 80vh;
-      left: -100px;
+      top: 70vh;
+      left: -65px;
     float: left;       
 
   }
   .triangle{
     position: relative;
-    top: 80vh;
+    top: 65vh;
   float: left;       
 }
 .semicircle-2{
     position: relative;
-    top: 80vh;
+    top: 65vh;
     float: right; 
     left: 492px; 
     height: 350px;
@@ -137,7 +137,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 1) {
     .carousel-container{
         position: relative;
-        top: 200px;
+        
     }
     .semicircle-2{
         position: relative;
@@ -155,12 +155,13 @@ body {
        visibility: visible;
        margin-top: -400px;
        margin-left: 200px;
+       display: none;
     }
     .book{
         height: 100px;
         position: relative;
-        top: 33vh;
-        left: -100px;
+        top: 40vh;
+        left: -80px;
       float: left;       
   
     }
@@ -178,7 +179,6 @@ body {
     .carousel-container{
         width: 600px;
         position: relative;
-        top: 100px;
     }
     .semicircle-2{
         position: relative;
@@ -195,6 +195,7 @@ body {
        visibility: visible;
        margin-top: -400px;
        margin-left: 200px;
+       display: none;
     }
     .book{
         height: 100px;
