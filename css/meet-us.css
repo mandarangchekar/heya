@@ -94,6 +94,10 @@
     font-size: 25px;
     font-weight: 350;
 }
+.anchor:hover {
+    text-decoration: none;
+    color: orange;
+}
 .anchor1{
   
     text-decoration: none;
