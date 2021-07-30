@@ -1,4 +1,4 @@
-/************************************************ REGISTER ***********************************************/
+
 
 /* Greater than 1250px */
 
@@ -128,7 +128,6 @@
 
 #social-icons {
 	display: inline-block; 
-	float: right;
 }
 
 #social-icons > div > a > i {
@@ -434,4 +433,6 @@ div.form-group {
 
 }
 */
+
+
 
