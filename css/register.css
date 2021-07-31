@@ -1,0 +1,434 @@
+
+
+/* Greater than 1250px */
+
+#hours {
+	font-family: 'Spinnaker', sans-serif;
+}
+
+#submission:hover {
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);	
+}
+
+#register-page {
+    background-color: #FF834F;
+	height: 100%;
+}
+
+#register {
+    margin: 15% 0 0 19%;  /* top right bottom left */
+    position: relative;
+	width: 100%;
+	height: 60px;
+    font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 78px;
+	color: #FFFEFE;
+}
+
+#doodle7 {
+	position: absolute;
+	left: 3.54%;
+	right: 88.39%;
+	top: 5.12%;
+	bottom: 58.41%;
+}
+#doodle8 {
+	position: absolute;
+	left: 3.54%;
+	right: 88.39%;
+	top: 60%;
+	bottom: 58.41%;
+	margin-left: 50vw;
+}
+#doodle9 {
+	position: absolute;
+	left: 3.54%;
+	right: 88.39%;
+	top: 80%;
+	bottom: 58.41%;
+	margin-left: 10vw;
+}
+
+.form-group {
+    margin: 5% 0 0 19%;  /* top right bottom left */
+}
+
+#email-text {
+	width: 420px;
+	height: 65px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #777777;
+	border-radius: 100px;
+	border: 3px solid #FFFFFF;
+}
+
+#submission {
+  /* top right bottom left */
+	width: 210px;
+	height: 65px;
+	background-color: #FF834F;
+	font-size: 18px;
+	color: white;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 100px;
+}
+
+#submission:hover {
+	background-color: white;
+	color: gray;
+}
+
+
+#mobile {
+    float: right;
+    margin: 8% 20% 8% 0;
+}
+
+@media (max-width: 835px) {
+    #mobile {
+        display: none;
+    }
+}
+
+
+
+
+
+/* Footer */
+
+#hours {
+	line-height: 2;
+}
+
+#hours > span, #copyright {
+	font-size: 1.5em;
+	color: white;
+}
+
+.panel-footer {
+	padding-top: 35px !important;
+	padding-bottom: 30px !important;
+	background-color: #222 !important;
+	border-top: 0 !important;
+}
+
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+
+#social-icons {
+	display: inline-flex; 
+}
+
+#social-icons > div > a > i {
+	font-size: 30px; 
+	color: white;
+}
+
+#social-icons > #facebook > a > i:hover {
+	color: #A4D6EE;
+}
+
+#social-icons > #g-plus > a > i:hover {
+	color: #FE6161;
+}
+
+#social-icons > #linkdin > a > i:hover {
+	color: #A4D6EE;
+}
+
+#social-icons > #instagram > a > i:hover {
+	color: #E1306C;
+}
+
+#links {
+	color: gray; 
+	text-decoration: none;
+}
+
+#links:hover {
+	color: #FF834F;
+}
+
+#links:active {
+	color: #FF834F;
+}
+
+#number {
+	color: white; 
+	text-decoration: none;
+}
+
+#number:hover {
+	color: #FF834F;
+}
+
+	
+
+
+
+/**************************** This is for MEDIUM devices *****************************/
+/*
+@media(min-width: 600px) and (max-width: 900px){
+
+	#circle {
+		height: 120px;
+		width: 120px;
+	}
+
+	#register {
+	left: 80px;
+	top: 140px;
+	font-size: 26px;
+}
+
+div.form-group {
+	width: 250px;
+	height: 65px;
+	left: 80px;
+	top: 270px;
+}
+
+#email-text {
+	width: 250px;
+	height: 60px;
+}
+
+#submission {
+	width: 180px;
+	height: 60px;
+	top: 90px;
+}
+
+#mobile {
+	height: 500px; 
+	width: 250px;
+	padding-right: 5%;
+	padding-top: 15%;
+}
+
+#doodle7 {
+	float: right;
+	padding-right: 3%;
+}
+
+}
+*/
+
+
+/**************************** This is for SMALL devices *****************************/
+/*
+@media(min-width: 500px) and (max-width: 599px){
+
+	#circle {
+		height: 100px;
+		width: 100px;
+	}
+
+	#register {
+	left: 40px;
+	top: 140px;
+	font-size: 26px;
+}
+
+div.form-group {
+	width: 240px;
+	height: 65px;
+	left: 40px;
+	top: 270px;
+}
+
+#email-text {
+	width: 240px;
+	height: 60px;
+}
+
+#submission {
+	width: 180px;
+	height: 60px;
+	top: 90px;
+}
+
+#mobile {
+	height: 475px; 
+	width: 200px;
+	padding-right: 5%;
+	padding-top: 25%;
+}
+
+#doodle7 {
+	float: right;
+	padding-right: 0px;
+}
+
+}
+*/
+
+
+/********************************************* This is for mobiles ****************************************/
+/*
+@media(min-width: 431px) and (max-width: 499px){
+
+	#circle {
+		height: 70px;
+		width: 70px;
+	}
+
+	#register {
+	left: 20px;
+	top: 140px;
+	font-size: 25px;
+}
+
+div.form-group {
+	width: 240px;
+	height: 50px;
+	left: 20px;
+	top: 270px;
+}
+
+#email-text {
+	width: 240px;
+	height: 50px;
+}
+
+#submission {
+	width: 180px;
+	height: 50px;
+	top: 80px;
+}
+
+#mobile {
+	float: right;
+	height: 430px; 
+	width: 150px;
+	padding-right: 2%;
+	padding-top: 30%;
+}
+
+#doodle7 {
+	float: right;
+	padding-right: 0%;
+}
+
+}
+
+
+
+@media(min-width: 381px) and (max-width: 430px){
+
+	#circle {
+		height: 70px;
+		width: 70px;
+	}
+
+	#register {
+	width: 200px;
+	left: 20px;
+	top: 140px;
+	font-size: 20px;
+}
+
+div.form-group {
+	width: 200px;
+	height: 40px;
+	left: 20px;
+	top: 250px;
+}
+
+#email-text {
+	width: 200px;
+	height: 40px;
+}
+
+#submission {
+	font-size: 18px;
+	width: 180px;
+	height: 40px;
+	top: 60px;
+}
+
+#mobile {
+	float: right;
+	height: 400px; 
+	width: 150px;
+	padding-right: 3%;
+	padding-top: 35%;
+}
+
+#doodle7 {
+	float: right;
+	padding-right: 0%;
+}
+
+}
+
+#social-icons {
+	float: right;
+}
+
+
+@media(min-width: 150px) and (max-width: 380px){
+
+	#social-icons {
+		margin-top: 20px;
+	}
+
+	#circle {
+		height: 70px;
+		width: 70px;
+	}
+
+	#register {
+	width: 250px;
+	left: 40px;
+	top: 120px;
+	font-size: 18px;
+}
+
+div.form-group {
+	width: 180px;
+	height: 40px;
+	left: 40px;
+	top: 220px;
+}
+
+#email-text {
+	font-size: 15px;
+	width: 180px;
+	height: 40px;
+}
+
+#submission {
+	font-size: 15px;
+	width: 150px;
+	height: 40px;
+	top: 60px;
+}
+
+#mobile {
+	float: right;
+	height: 0px; 
+	width: 0px;
+	padding-right: 3%;
+	padding-top: 35%;
+}
+
+#doodle7 {
+	height: 50px;
+	width: 50px;
+	float: right;
+	padding-right: 0%;
+}
+
+}
+*/
+
